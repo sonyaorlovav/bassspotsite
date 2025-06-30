@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 58vw;  
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;}
+  
+.main-screen {
+position: relative;
+width: 100vw;
+height: 58vw; 
+background-color: #0073ff;
+overflow: hidden;
+}
+
+  
+.grid1 {
+position: absolute;
+top: -1;
+left: 0;
+width: 100%;
+height: auto; 
+z-index: 1;
+}
+  
+.interpic {
+position: absolute;
+margin-top: 28.9vw;  
+left: 0;
+width: 50%;  
+height: auto;
+}
+
+.bookpic {
+position: absolute;
+margin-top: -4vw;  
+left: 50vw;
+width: 50%;  
+height: auto;
+}
+
+.disk {
+position: absolute;
+margin-top: 1vw;  
+left: 0vw;
+width: 23%;  
+height: auto;
+}
+
+.cas {
+position: absolute;
+margin-top: 0vw;  
+left: 25.2vw;
+width: 27.4%;  
+height: auto;
+z-index: 6;
+}
+
+.mediator {
+position: absolute;
+top: 13vw;  
+left: 21vw;
+width: 16%;  
+height: auto;
+z-index: 100;
+cursor: grab;
+}
+
+.disk2 {
+position: absolute;
+margin-top: 18vw;  
+left: 80vw;
+width: 21%;  
+height: auto;
+z-index: 6;
+}
+
+.star {
+position: absolute;
+top: 34vw;  
+left: 66vw;
+width: 21%;  
+height: auto;
+z-index: 100;
+cursor: grab;
+}
+
+.metal {
+position: absolute;
+margin-top: 43vw;  
+left: 46vw;
+width: 21%;  
+height: auto;
+z-index: 6;
+}
+
+.book {
+position: absolute;
+margin-top: 0.2vw;  
+left: 89vw; 
+font-style: italic;
+font-size: 4vw;
+color: #ffffff;
+z-index: 7;
+width: 21%;  
+-webkit-text-stroke: 0.8vw;
+-webkit-text-stroke-color: #0073ff
+}
+
+.book2 {
+position: absolute;
+margin-top: 0.2vw;  
+left: 89vw; 
+font-style: italic;
+font-size: 4vw;
+color: #ffffff;
+z-index: 8;
+}
+
+.shop {
+position: absolute;
+margin-top: 51.5vw;  
+left: 83.4vw; 
+font-style: italic;
+font-size: 4vw;
+color: #ffffff;
+z-index: 7;
+width: 21%;  
+-webkit-text-stroke: 0.8vw;
+-webkit-text-stroke-color: #ffffff
+}
+
+.shop2 {
+position: absolute;
+margin-top: 51.5vw;  
+left: 83.4vw; 
+font-style: italic;
+font-size: 4vw;
+color: #0073ff;
+z-index: 8;
+}
+
+.inter{
+position: absolute;
+margin-top: 51.5vw;  
+left: 1vw; 
+font-style: italic;
+font-size: 4vw;
+color: #ffffff;
+z-index: 7;
+width: 21%;  
+-webkit-text-stroke: 0.8vw;
+-webkit-text-stroke-color: #ffffff
+}
+
+.inter2 {
+position: absolute;
+margin-top: 51.5vw;  
+left: 1vw; 
+font-style: italic;
+font-size: 4vw;
+color: #0073ff;
+z-index: 8;
+}
+
+
+.events {
+position: absolute;
+margin-top: 0.2vw;  
+left: 1vw; 
+font-style: italic;
+font-size: 4vw;
+color: #ffffff;
+z-index: 7;
+width: 21%;  
+-webkit-text-stroke: 0.8vw;
+-webkit-text-stroke-color: #ffffff
+}
+
+.events2 {
+position: absolute;
+margin-top: 0.2vw;  
+left: 1vw; 
+font-style: italic;
+font-size: 4vw;
+color: #0073ff;
+z-index: 8;
+}
+
+/*"О проекте" */
+body.about {
+margin: 0;
+padding: 0;
+font-family: 'Inter', sans-serif;
+background-color: rgb(255, 255, 255);
+overflow-y: auto;
+}
+
+.content {
+width: 100vw;
+min-height: 200vh; 
+padding: 10px;
+position: relative; 
+}
+  
+.about1 {
+position: absolute;
+top: 19vw;
+left: 3vw;
+font-style: normal;
+font-size: 2.3vw;
+color: #0073ff;
+}
+  
+.logoabout {
+position: absolute;
+top: 2vw;
+left:0.5vw;
+width: 100%;
+}
+
+.building {
+position: absolute;
+top: 35vw;
+left: 4vw;
+width: 90%;
+}
+
+.merop {
+position: absolute;
+top: 102vw;
+left: 0vw;
+width: 100%;
+}
+
+.merologos {
+position: absolute;
+top: 117vw;
+left: 2vw;
+width: 95%;
+}
+
+/*"book" */
+body.kniga {
+margin: 0;
+padding: 0;
+font-family: 'Inter', sans-serif;
+background-image: url("../img/grass.jpg");
+overflow-y: auto;
+}
+
+.logobook {
+position: absolute;
+top: 3vw;
+left: 0vw;
+width: 100%;
+}
+
+.content2 {
+width: 100vw;
+min-height: 200vh; 
+padding: 10px;
+position: relative; 
+}
+
+.book-container {
+  position: relative;
+  width: 80vw;
+  max-width: 1000px;
+  height: 600px; 
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 210px;
+}
+
+.book-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+.book-container img.active {
+  display: block;
+  z-index: 1;
+}
+
+/*"shop" */
+body.magaz {
+margin: 0;
+padding: 0;
+font-family: 'Inter', sans-serif;
+background-image: url("../img/grass.jpg");
+overflow-y: auto;
+}
+  
+.logoshop{
+position: absolute;
+top: -5vw;
+left: 0vw;
+width: 100%;
+}
+  
+.content3 {
+width: 100vw;
+min-height: 200vh; 
+padding: 10px;
+position: relative; 
+}
+
+.stuff{
+position: absolute;
+top: 20vw;
+left: 4vw;
+width: 90%;
+}
+
+/*"inter" */
+body.in {
+margin: 0;
+padding: 0;
+font-family: 'Inter', sans-serif;
+background-color: #0073ff;
+overflow-y: auto;
+}
+  
+.logointer{
+position: absolute;
+top: 0vw;
+left: 0vw;
+width: 100%;
+}
+  
+.content4 {
+width: 100vw;
+min-height: 200vh; 
+padding: 10px;
+position: relative; 
+}
+
+.game{
+position: absolute;
+top: 17vw;
+left: 53vw;
+width: 44%;
+}
+
+.poster{
+position: absolute;
+top: 17vw;
+left: 3vw;
+width: 47%;
+}
+
+/*"events" */
+body.ev {
+margin: 0;
+padding: 0;
+font-family: 'Inter', sans-serif;
+background-color: #0073ff;
+overflow-y: auto;
+}
+  
+.logoevents{
+position: absolute;
+top: 0vw;
+left: 0vw;
+width: 100%;
+}
+  
+.content5 {
+width: 100vw;
+min-height: 200vh; 
+padding: 10px;
+position: relative; 
+}
+
+.card-container1 {
+  width: 250px;
+  height: 350px;
+  perspective: 1000px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.card1 {
+  width: 150%;
+  height: 150%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease;
+  position: absolute;
+  top: 17vw;
+  left: -37vw;
+
+}
+
+.card1.flipped {
+  transform: rotateY(180deg);
+}
+
+.front1, .back1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  overflow: hidden;
+ 
+}
+
+.front1 img, .back1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.back1 {
+  transform: rotateY(180deg);
+}
+
+
+
+.card-container2 {
+  width: 250px;
+  height: 350px;
+  perspective: 1000px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.card2 {
+  width: 150%;
+  height: 150%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease;
+  position: absolute;
+  top: -8.5vw;
+  left: -5vw;
+
+}
+
+.card2.flipped {
+  transform: rotateY(180deg);
+}
+
+.front2, .back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  overflow: hidden;
+ 
+}
+
+.front2 img, .back2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.back2 {
+  transform: rotateY(180deg);
+}
+
+
+
+.card-container3 {
+  width: 250px;
+  height: 350px;
+  perspective: 1000px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.card3 {
+  width: 150%;
+  height: 150%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease;
+  position: absolute;
+  top: -34vw;
+  left: 27vw;
+
+}
+
+.card3.flipped {
+  transform: rotateY(180deg);
+}
+
+.front3, .back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  overflow: hidden;
+ 
+}
+
+.front3 img, .back3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.back3 {
+  transform: rotateY(180deg);
+}
+
+
